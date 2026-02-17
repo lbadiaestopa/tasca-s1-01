@@ -111,5 +111,14 @@ footer {
 
     .logo, .nav, .social {
     margin: 0;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        padding-bottom: 30px;
+    }
 }
-}
+
