@@ -122,3 +122,9 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
