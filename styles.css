@@ -84,7 +84,6 @@ main {
     height: 100%;
     gap: 15px;
     padding-top: 30px;
-
 }
 
 .publicidad {
@@ -102,5 +101,15 @@ footer {
 .pie {
     background-color: #efe68c;
     height: 50px;
+}
 
+@media (max-width: 1024px) {
+    .top-header {
+        flex-direction: column;
+        padding: 30px; 
+    }
+
+    .logo, .nav, .social {
+    margin: 0;
+}
 }
